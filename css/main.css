@@ -1,0 +1,402 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.body{
+	font-family: 'Jost', sans-serif;
+}
+.col-10{
+		background: rgb(232,2,118);
+background: linear-gradient(90deg, rgba(232,2,118,1) 0%, rgba(100,5,122,1) 48%, rgba(2,13,138,1) 78%, rgba(0,2,70,1) 100%);
+	background-size: cover;
+}
+.col-2.ig{	background: black;
+	margin:0;
+	background-attachment: fixed;
+}
+.header{
+	width:100%;
+	margin:0px;
+	padding:25px;
+}
+.logo{
+	justify-content: flex-end;
+	display:flex;
+}
+.Navigation{
+	justify-content: flex-end;
+	align-items: center;
+	display:flex;
+}
+.Navigation a{
+	color:white;
+	border: 2px solid white;
+	border-radius: 10%;
+	width:80%;
+	justify-content: center;
+	align-items: center;
+	padding:5px;
+	text-decoration: none;
+	font-weight:600;
+	font-size:20px;
+	display:flex;
+}
+.Navigation a:hover{
+	background: white;
+	color: black;
+}
+.main{
+	width:100%;
+	margin:50px 0px 0px;
+}
+.main1{
+	width:100%;
+	margin:0px 100px 0px 100px;
+	display:flex;
+	height:500px;
+}
+.pic{
+	background: url("../download (1).jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100%;
+	height:500px;
+	border-radius:10%;
+}
+.opacity{
+	border-radius:10%;
+	width:100%;
+	height:500px;
+	background: rgb(200,3,106);
+background: linear-gradient(90deg, rgba(200,3,106,0.3337710084033614) 0%, rgba(100,5,122,0.33657212885154064) 100%);
+	position: absolute;
+}
+.pic1{
+	background: url("../The Album (Blackpink).jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100%;
+	height:0;
+	border-radius:10%;
+	position: absolute;
+	display:flex;
+	transition-duration: 0.5s;
+	top:0
+}
+.box:hover .pic1{
+	height:100%;
+}
+.box{
+	width:33.34%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	border-radius:10%;
+	flex-wrap: wrap;
+	box-shadow: 2px 2px 30px 2px black ;
+}
+.album{
+	margin:0px 0px 0px 50px;
+	font-size:50px;
+	font-weight:600;
+	height:50px;
+	letter-spacing: 30px;
+	text-transform: uppercase;
+	color:white;
+}
+.ab{
+	height:30px;
+	dislay:flex;
+	align-self:flex-start;
+}
+.thealbum{
+	margin:0px 0px 0px 50px;
+	font-size:148px;
+	font-weight:800;
+height:140px;
+	text-transform: uppercase;
+	color:white;
+}
+.AB{
+	height:140px;
+	dislay:flex;
+	align-self:flex-start;
+}
+.blackpink{
+	display:flex;
+	margin-top:45px;
+}
+.bp{
+	margin-left: 10px;
+	font-size:20px;
+	font-weight:600;
+	text-transform: uppercase;
+	color:white;
+	text-decoration: none;
+}
+.bp:hover{
+	color:pink;
+}
+.pe{
+	margin-bottom: 0;
+	margin-left: 10px;
+	font-size:20px;
+	font-weight:400;
+	color:pink;
+}
+.oval img{
+	margin:0px 0px 0px 50px;
+	height:60px;
+	border-radius:100%;
+	margin-bottom: 0px;
+}
+.section2{
+	width:100%;
+	background:rgba(0,0,0,0.30) ;
+	margin-top:40px;
+}
+.icon a{
+	font-size:50px;
+	margin:16px 16px 0px 0px;
+	color: rgba(253,149,151,1)
+}
+.icon.row{
+	margin:0px 100px 0px 100px;
+}
+.icon a:hover{
+	color: white;
+}
+.play a{
+	margin:16px 16px 0px 0px;
+	font-size:90px;
+	display: flex;
+}
+.play{
+	position: relative;
+    margin-top:6px;
+}
+.hd{
+	margin-top:20px;
+	display:flex;
+}
+.section22{
+	margin-top:25px;
+	font-size:20px;
+	letter-spacing: 2px;
+	color:white;
+	font-weight:200;
+	text-transform: uppercase;
+}
+.section22 a{
+	font-size:25px;
+	color:white;
+	font-weight:200;}
+.section22{
+	margin:20px 80px 20px 80px;
+}
+.col1{
+	display:flex;
+	justify-content: center;
+}
+.colt{
+	justify-content: flex-start;
+}
+.col11 a {
+margin-left:30px;
+}
+.border{
+	border-bottom:2px solid rgba(255,255,255,0.60);
+}
+.H{
+	width:100%;
+	margin: 20px 140px 20px 140px;
+	display:flex;
+	font-size:24px;
+	font-weight:200;
+	color:white;
+}
+.bai1{
+	justify-content: flex-start;
+	display: flex
+}
+.b1{
+	margin-left:55px;
+}
+.hyld{
+	font-weight:600;
+	font-size:30px;
+}
+.so{
+	font-size:24px;
+	color:white;
+	display:flex;
+	justify-content: flex-start;
+}
+.share{
+	display:flex;
+	justify-content: space-between;
+}
+.share a{
+	font-size:25px;
+	color:white;
+	font-weight:200;
+}
+.BP a:hover{
+	text-decoration: underline;
+}
+.BP a{
+	color:white;
+	text-decoration: none;
+}
+.share a:hover{
+	color:aqua;
+}
+.I{
+	width:100%;
+	margin: 20px 140px 20px 140px;
+	display:flex;
+	font-size:24px;
+	font-weight:200;
+	color:white;
+}
+.row.sang:hover{
+	background: rgba(255,255,255,0.20)
+}
+.P{
+	width:100%;
+	margin: 20px 140px 20px 140px;
+	display:flex;
+	font-size:24px;
+	font-weight:200;
+	color:white;
+}
+.B{
+	width:100%;
+	margin: 20px 140px 20px 140px;
+	display:flex;
+	font-size:24px;
+	font-weight:200;
+	color:white;
+}
+.L{
+	width:100%;
+	margin: 20px 140px 20px 140px;
+	display:flex;
+	font-size:24px;
+	font-weight:200;
+	color:white;
+}.C{
+	width:100%;
+	margin: 20px 140px 20px 140px;
+	display:flex;
+	font-size:24px;
+	font-weight:200;
+	color:white;
+}.L2{
+	width:100%;
+	margin: 20px 140px 20px 140px;
+	display:flex;
+	font-size:24px;
+	font-weight:200;
+	color:white;
+}.Y{
+	width:100%;
+	margin: 20px 140px 20px 140px;
+	display:flex;
+	font-size:24px;
+	font-weight:200;
+	color:white;
+}
+.More{
+	margin: 20px 100px 10px 100px;
+	font-size:35px;
+	font-weight:400;
+	color:pink;
+	display:flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	padding: 30px ;
+}
+.album1{
+	border-radius: 30px;
+	overflow: hidden;
+	box-sizing: border-box;
+	background: black;
+	width:250px;
+	height: 350px;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.album1:hover{
+	background: rgba(255,255,255,0.20); 
+}
+.p1{
+	font-weight: 600;
+	font-size:25px;
+}
+.p2{
+	color:pink;
+	font-size:16px;
+}
+.anhbum{
+	display:flex;
+	margin: 10px 100px 5px 100px;
+	justify-content: space-between;
+}
+.banner{
+	height:100vh;
+	overflow:hidden;
+/*	margin: 10px 100px 10px 100px;*/
+}
+.banner video{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.head{
+	padding: 24px 100px;
+	width:100%;
+	position: absolute;
+	background:  rgba(0,0,0,0.59);
+	font-weight: 400;
+	font-size:25px;
+	color:white;
+}
+.img{
+	height:100vh;
+	background: url("../BLACKPINK nổi tiếng đình đám là thế nhưng vẫn chịu kiếp “ế vé”, vì đâu nên nỗi_.jpg");
+	background-attachment: fixed;
+	background-size:cover;
+	background-position: center;
+}
+.opacity{
+	width:100%;
+	height:100vh;
+	background: rgb(200,3,106);
+background: linear-gradient(90deg, rgba(200,3,106,0.3337710084033614) 0%, rgba(100,5,122,0.33657212885154064) 100%);
+	position: absolute;
+}
+.col-2.lg{
+	background: black;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.p{
+	font-size: 25px;
+	color: pink;
+	padding:20px 0px 20px 50px;	
+}
+.p:hover{
+	color: white; 
+}
+.col-2.lg a{
+	font-size: 30px;
+}
+
